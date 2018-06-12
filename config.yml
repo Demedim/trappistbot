@@ -2,7 +2,7 @@ token: "rkEXwotkar6Q3pIx"    # lichess OAuth2 Token
 url: "https://lichess.org/"  # lichess base URL
 
 engine:                      # engine settings
-  dir: "../trappist-c/"          # dir containing engines, relative to this project
+  dir: "./engines/"          # dir containing engines, relative to this project
   name: "trappist.exe"        # binary name of the engine to use
   protocol: "uci"            # "uci" or "xboard"
   polyglot:
