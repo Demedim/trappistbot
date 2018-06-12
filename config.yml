@@ -3,7 +3,7 @@ url: "https://lichess.org/"  # lichess base URL
 
 engine:                      # engine settings
   dir: "./engines/"          # dir containing engines, relative to this project
-  name: "trappist.exe"        # binary name of the engine to use
+  name: "trappist"        # binary name of the engine to use
   protocol: "uci"            # "uci" or "xboard"
   polyglot:
     enabled: false           # activate polyglot book
@@ -63,12 +63,12 @@ challenge:                   # incoming challenges
 #   - racingKings
 #   - threeCheck
   time_controls:             # time controls to accept
-#   - ultraBullet
+   - ultraBullet
     - bullet
     - blitz
     - rapid
-#   - classical
-#   - correspondence
+   - classical
+   - correspondence
   modes:                     # game modes to accept
     - casual                 # unrated games
     - rated                  # rated games - must comment if the engine doesn't try to win
